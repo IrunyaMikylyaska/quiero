@@ -1,0 +1,119 @@
+body {
+    background-color: #01315C;
+    color:#F0D397;
+    margin:0;
+    font-family: 'Instrument Sans';
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    background-color: #2F70AF;
+    padding:20px;
+}
+
+nav a{
+    color: #F0D397;
+    text-decoration:none;
+
+}
+
+nav a:hover{
+    color:#d6920a;
+}
+header p{
+    text-align: center;
+}
+main h1{
+    text-align: center;
+    font-size:36px;
+    padding: 20px;
+}
+.logo{
+    width:400px;
+}
+
+main img{
+    width:480px;
+    opacity:0.2;
+    border-radius:30px;
+    transition:3s opacity ease-out;
+}
+
+section{
+    display: flex;
+    width:100%;
+    justify-content: space-evenly;
+}
+
+article{
+    width:500px; 
+}
+
+main img:hover{
+   opacity:1;
+    transition:3s ease-in;
+}
+
+section{
+    margin:20px auto;
+}
+
+article p{
+    font-family: 'Instrument Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.11em;
+}
+
+footer{
+    background-color: #2F70AF;
+    padding: 10px;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    padding: 10px;
+    border-top:1px solid #F0D397;
+    align-items: center;
+}
+.up{
+    position:fixed;
+    right:20px;
+   bottom:50px;
+   background-color:goldenrod;
+   border-radius:100%;
+   width:70px;
+   height:70px;
+   display:flex;
+   align-items:center;
+   justify-content: center;
+   text-align:center;
+}
+.up a{
+    color:black;
+    font-size: 25px;
+}
+        
+.youtube::before{
+    content:url("https://github.com/IrunyaMikylyaska/quiero/blob/main/youtube.png?raw=true");
+    display:inline-block;
+    width:20px;
+    margin:5px;
+}
+
+.youtube a{
+    text-decoration: none;
+    color: #F0D397;
+        background-color: rgb(117, 0, 0);
+        padding: 5px;
+        border-radius: 10px;
+        height: auto;
+}
+
+.end a{
+    color: #F0D397;
+}
